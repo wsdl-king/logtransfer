@@ -1,20 +1,20 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego/logs"
 	"github.com/pythonsite/config"
-	"encoding/json"
 	"time"
 )
 
 type AppConfig struct {
-	logPath string
-	logLevel string
-	kafkaAddr string
-	esAddr string
-	esThreadNum int
-	etcdAddr string
+	logPath       string
+	logLevel      string
+	kafkaAddr     string
+	esAddr        string
+	esThreadNum   int
+	etcdAddr      string
 	etcdKeyFormat string
 }
 
@@ -28,7 +28,7 @@ func initConfig(confPath string) (err error) {
 	}
 
 	logPath, err := conf.GetString("log_path")
-	if len(logPath) == 0 || err != nil{
+	if len(logPath) == 0 || err != nil {
 		return fmt.Errorf("get log_path failed,invalid logPath, err:%v", err)
 	}
 
@@ -56,7 +56,6 @@ func initConfig(confPath string) (err error) {
 
 	esThreadNum := conf.GetIntDefault("es_thread_num", 8)
 	appConfig.esThreadNum = esThreadNum
-
 
 	etcdAddr, err := conf.GetString("etcd_addr")
 	if len(etcdAddr) == 0 || err != nil {
@@ -105,8 +104,7 @@ func initLog(logPath string, logLevel string) (err error) {
 	return
 }
 
-
-func main(){
+func main() {
 	err := initConfig("./conf/app.conf")
 	if err != nil {
 		panic(fmt.Sprintf("init config failed, err:%v", err))
@@ -126,12 +124,12 @@ func main(){
 	}
 
 	err = initEs(appConfig.esAddr)
-	if err!= nil {
+	if err != nil {
 		logs.Error("init es failed, err:%v", err)
 		return
 	}
 
-	ips, err := getLocalIP();
+	ips, err := getLocalIP()
 	if err != nil {
 		logs.Error("get local ip failed, er:%v", err)
 		return

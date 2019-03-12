@@ -1,1 +1,250 @@
 
+2019/03/11 17:52:52.763 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/11 17:52:52.765 [D]  conn to es success
+2019/03/11 17:52:55.018 [D]  etcd addr:192.168.88.152:2379
+2019/03/11 17:52:55.018 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/11 17:52:55.019 [D]  init etcd succ
+2019/03/11 17:52:57.019 [W]  get key /logtransfer/192.168.88.152/log_config failed, err:context deadline exceeded
+2019/03/11 17:52:59.019 [W]  get key /logtransfer/172.17.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:53:01.019 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:53:03.020 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:53:37.778 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/11 17:53:37.780 [D]  conn to es success
+2019/03/11 17:53:47.085 [D]  etcd addr:192.168.88.152:2379
+2019/03/11 17:53:47.085 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/11 17:53:47.085 [D]  init etcd succ
+2019/03/11 17:53:49.086 [W]  get key /logtransfer/192.168.88.152/log_config failed, err:context deadline exceeded
+2019/03/11 17:53:51.086 [W]  get key /logtransfer/172.17.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:53:53.087 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:53:55.087 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:57:41.277 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/11 17:57:41.279 [D]  conn to es success
+2019/03/11 17:57:41.279 [D]  etcd addr:192.168.88.152:2379
+2019/03/11 17:57:51.812 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/11 17:57:59.441 [D]  init etcd succ
+2019/03/11 17:58:23.526 [W]  get key /logtransfer/192.168.88.152/log_config failed, err:context deadline exceeded
+2019/03/11 17:58:41.843 [W]  get key /logtransfer/172.17.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 17:58:43.844 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 18:01:57.136 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/11 18:01:57.138 [D]  conn to es success
+2019/03/11 18:01:57.139 [D]  etcd addr:192.168.88.152:2379
+2019/03/11 18:01:57.139 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/11 18:01:57.139 [D]  init etcd succ
+2019/03/11 18:01:59.140 [W]  get key /logtransfer/192.168.88.152/log_config failed, err:context deadline exceeded
+2019/03/11 18:02:01.140 [W]  get key /logtransfer/172.17.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 18:02:03.141 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/11 18:02:05.141 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2019/03/12 15:45:00.788 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/12 15:45:00.800 [D]  conn to es success
+2019/03/12 15:45:00.801 [D]  etcd addr:192.168.88.152:2379
+2019/03/12 15:45:00.801 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/12 15:45:00.801 [D]  init etcd succ
+2019/03/12 15:45:00.803 [D]   "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/12 15:45:00.806 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/12 15:47:59.876 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/12 15:48:04.834 [D]  conn to es success
+2019/03/12 15:48:08.375 [D]  etcd addr:192.168.88.152:2379
+2019/03/12 15:48:08.972 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/12 15:48:08.972 [D]  init etcd succ
+2019/03/12 15:48:08.974 [D]   "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/12 15:48:11.089 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/12 15:48:24.347 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/12 15:48:26.369 [D]  conn to es success
+2019/03/12 15:48:26.369 [D]  etcd addr:192.168.88.152:2379
+2019/03/12 15:48:26.369 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/12 15:48:26.370 [D]  init etcd succ
+2019/03/12 15:48:26.373 [D]   "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/12 15:48:30.885 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/12 15:49:05.495 [D]  Partition:0, Offset:11, Key:, Value:1331
+2019/03/12 15:49:06.168 [D]  send to es success
+2019/03/12 15:49:43.523 [D]  Partition:0, Offset:12, Key:, Value:[INFO ] 112-2018-08-17 18:00:05,391 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 15:49:43.523 [D]  Partition:0, Offset:13, Key:, Value:[INFO ] 96-2018-08-17 18:00:05,387 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 15:49:43.526 [D]  Partition:0, Offset:14, Key:, Value:[INFO ] 112-2018-08-17 18:04:14,539 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 15:49:43.526 [D]  Partition:0, Offset:15, Key:, Value:[INFO ] 96-2018-08-17 18:04:14,532 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 15:49:43.526 [D]  Partition:0, Offset:16, Key:, Value:[INFO ] 96-2018-08-17 18:04:40,410 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 15:49:43.528 [D]  Partition:0, Offset:17, Key:, Value:[IN1wewewew
+2019/03/12 15:49:43.528 [D]  Partition:0, Offset:18, Key:, Value:wewqewqeq
+2019/03/12 15:49:43.530 [D]  Partition:0, Offset:19, Key:, Value:ewqewq
+2019/03/12 15:49:43.530 [D]  Partition:0, Offset:20, Key:, Value:eqweqw
+2019/03/12 15:49:43.530 [D]  Partition:0, Offset:21, Key:, Value:eqwe
+2019/03/12 15:49:43.533 [D]  Partition:0, Offset:22, Key:, Value:eqwewqe1FO ] 112-2018-08-17 18:04:40,415 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 15:49:43.536 [D]  Partition:0, Offset:23, Key:, Value:121
+2019/03/12 15:49:43.536 [D]  Partition:0, Offset:24, Key:, Value:13131
+2019/03/12 15:49:43.536 [D]  Partition:0, Offset:25, Key:, Value:13131
+2019/03/12 15:49:43.538 [D]  Partition:0, Offset:26, Key:, Value:qwqq
+2019/03/12 15:49:43.538 [D]  Partition:0, Offset:27, Key:, Value:1331
+2019/03/12 15:49:43.558 [D]  send to es success
+2019/03/12 15:49:43.567 [D]  send to es success
+2019/03/12 15:49:43.568 [D]  send to es success
+2019/03/12 15:49:43.571 [D]  send to es success
+2019/03/12 15:49:43.577 [D]  send to es success
+2019/03/12 15:49:43.587 [D]  send to es success
+2019/03/12 15:49:43.588 [D]  send to es success
+2019/03/12 15:49:43.598 [D]  send to es success
+2019/03/12 15:49:43.607 [D]  send to es success
+2019/03/12 15:49:43.608 [D]  send to es success
+2019/03/12 15:49:43.608 [D]  send to es success
+2019/03/12 15:49:43.619 [D]  send to es success
+2019/03/12 15:49:43.628 [D]  send to es success
+2019/03/12 15:49:43.628 [D]  send to es success
+2019/03/12 15:49:43.638 [D]  send to es success
+2019/03/12 15:49:43.648 [D]  send to es success
+2019/03/12 16:29:04.321 [D]  PUT "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/12 16:29:04.325 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/12 16:29:32.603 [D]  Partition:0, Offset:28, Key:, Value:eqeq[INFO ] 96-2018-08-17 18:00:05,387 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:29:32.603 [D]  Partition:0, Offset:29, Key:, Value:[INFO ] 112-2018-08-17 18:00:05,391 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:29:32.610 [D]  Partition:0, Offset:30, Key:, Value:[INFO ] 112-2018-08-17 18:04:14,539 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:29:32.610 [D]  Partition:0, Offset:31, Key:, Value:[INFO ] 96-2018-08-17 18:04:14,532 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:29:32.611 [D]  Partition:0, Offset:28, Key:, Value:eqeq[INFO ] 96-2018-08-17 18:00:05,387 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:29:32.611 [D]  Partition:0, Offset:29, Key:, Value:[INFO ] 112-2018-08-17 18:00:05,391 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:29:32.616 [D]  Partition:0, Offset:32, Key:, Value:[INFO ] 96-2018-08-17 18:04:40,410 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:29:32.616 [D]  Partition:0, Offset:33, Key:, Value:[IN1wewewew
+2019/03/12 16:29:32.616 [D]  Partition:0, Offset:30, Key:, Value:[INFO ] 112-2018-08-17 18:04:14,539 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:31, Key:, Value:[INFO ] 96-2018-08-17 18:04:14,532 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:32, Key:, Value:[INFO ] 96-2018-08-17 18:04:40,410 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:33, Key:, Value:[IN1wewewew
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:34, Key:, Value:wewqewqeq
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:35, Key:, Value:ewqewq
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:36, Key:, Value:eqweqw
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:34, Key:, Value:wewqewqeq
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:35, Key:, Value:ewqewq
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:36, Key:, Value:eqweqw
+2019/03/12 16:29:32.619 [D]  Partition:0, Offset:37, Key:, Value:eqwe
+2019/03/12 16:29:32.620 [D]  Partition:0, Offset:37, Key:, Value:eqwe
+2019/03/12 16:29:32.621 [D]  Partition:0, Offset:38, Key:, Value:1FO ] 112-2018-08-17 18:04:40,415 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:29:32.621 [D]  Partition:0, Offset:39, Key:, Value:121
+2019/03/12 16:29:32.621 [D]  Partition:0, Offset:40, Key:, Value:13131
+2019/03/12 16:29:32.623 [D]  Partition:0, Offset:41, Key:, Value:13131
+2019/03/12 16:29:32.623 [D]  Partition:0, Offset:38, Key:, Value:1FO ] 112-2018-08-17 18:04:40,415 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:29:32.623 [D]  Partition:0, Offset:39, Key:, Value:121
+2019/03/12 16:29:32.623 [D]  Partition:0, Offset:40, Key:, Value:13131
+2019/03/12 16:29:32.626 [D]  Partition:0, Offset:41, Key:, Value:13131
+2019/03/12 16:29:32.626 [D]  Partition:0, Offset:42, Key:, Value:13131
+2019/03/12 16:29:32.628 [D]  Partition:0, Offset:42, Key:, Value:13131
+2019/03/12 16:29:32.887 [D]  send to es success
+2019/03/12 16:29:32.907 [D]  send to es success
+2019/03/12 16:29:32.908 [D]  send to es success
+2019/03/12 16:29:32.908 [D]  send to es success
+2019/03/12 16:29:32.910 [D]  send to es success
+2019/03/12 16:29:32.912 [D]  send to es success
+2019/03/12 16:29:32.915 [D]  send to es success
+2019/03/12 16:29:32.915 [D]  send to es success
+2019/03/12 16:29:32.932 [D]  send to es success
+2019/03/12 16:29:32.942 [D]  send to es success
+2019/03/12 16:29:32.952 [D]  send to es success
+2019/03/12 16:29:32.954 [D]  send to es success
+2019/03/12 16:29:32.963 [D]  send to es success
+2019/03/12 16:29:32.973 [D]  send to es success
+2019/03/12 16:29:32.973 [D]  send to es success
+2019/03/12 16:29:32.983 [D]  send to es success
+2019/03/12 16:29:32.983 [D]  send to es success
+2019/03/12 16:29:32.993 [D]  send to es success
+2019/03/12 16:29:32.994 [D]  send to es success
+2019/03/12 16:29:32.995 [D]  send to es success
+2019/03/12 16:29:33.004 [D]  send to es success
+2019/03/12 16:29:33.005 [D]  send to es success
+2019/03/12 16:29:33.005 [D]  send to es success
+2019/03/12 16:29:33.022 [D]  send to es success
+2019/03/12 16:29:33.023 [D]  send to es success
+2019/03/12 16:29:33.024 [D]  send to es success
+2019/03/12 16:29:33.024 [D]  send to es success
+2019/03/12 16:29:33.024 [D]  send to es success
+2019/03/12 16:29:33.044 [D]  send to es success
+2019/03/12 16:29:33.044 [D]  send to es success
+2019/03/12 16:50:02.563 [D]  PUT "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/12 16:50:02.566 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/12 16:50:21.326 [D]  Partition:0, Offset:43, Key:, Value:eqe1212:q[INFO ] 96-2018-08-17 18:00:05,387 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.326 [D]  Partition:0, Offset:43, Key:, Value:eqe1212:q[INFO ] 96-2018-08-17 18:00:05,387 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.327 [D]  Partition:0, Offset:43, Key:, Value:eqe1212:q[INFO ] 96-2018-08-17 18:00:05,387 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.330 [D]  Partition:0, Offset:44, Key:, Value:[INFO ] 112-2018-08-17 18:00:05,391 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.330 [D]  Partition:0, Offset:45, Key:, Value:[INFO ] 112-2018-08-17 18:04:14,539 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.330 [D]  Partition:0, Offset:46, Key:, Value:[INFO ] 96-2018-08-17 18:04:14,532 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.331 [D]  Partition:0, Offset:44, Key:, Value:[INFO ] 112-2018-08-17 18:00:05,391 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.331 [D]  Partition:0, Offset:45, Key:, Value:[INFO ] 112-2018-08-17 18:04:14,539 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.331 [D]  Partition:0, Offset:46, Key:, Value:[INFO ] 96-2018-08-17 18:04:14,532 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.332 [D]  Partition:0, Offset:44, Key:, Value:[INFO ] 112-2018-08-17 18:00:05,391 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.332 [D]  Partition:0, Offset:45, Key:, Value:[INFO ] 112-2018-08-17 18:04:14,539 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.332 [D]  Partition:0, Offset:46, Key:, Value:[INFO ] 96-2018-08-17 18:04:14,532 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.338 [D]  Partition:0, Offset:47, Key:, Value:[INFO ] 96-2018-08-17 18:04:40,410 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.338 [D]  Partition:0, Offset:48, Key:, Value:[IN1wewewew
+2019/03/12 16:50:21.339 [D]  Partition:0, Offset:47, Key:, Value:[INFO ] 96-2018-08-17 18:04:40,410 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.339 [D]  Partition:0, Offset:48, Key:, Value:[IN1wewewew
+2019/03/12 16:50:21.339 [D]  Partition:0, Offset:49, Key:, Value:wewqewqeq
+2019/03/12 16:50:21.339 [D]  Partition:0, Offset:50, Key:, Value:ewqewq
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:49, Key:, Value:wewqewqeq
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:50, Key:, Value:ewqewq
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:51, Key:, Value:eqweqw
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:52, Key:, Value:eqwe
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:47, Key:, Value:[INFO ] 96-2018-08-17 18:04:40,410 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:96) - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://www.baidu.com:80: The target server failed to respond
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:48, Key:, Value:[IN1wewewew
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:49, Key:, Value:wewqewqeq
+2019/03/12 16:50:21.341 [D]  Partition:0, Offset:50, Key:, Value:ewqewq
+2019/03/12 16:50:21.342 [D]  Partition:0, Offset:51, Key:, Value:eqweqw
+2019/03/12 16:50:21.342 [D]  Partition:0, Offset:52, Key:, Value:eqwe
+2019/03/12 16:50:21.342 [D]  Partition:0, Offset:53, Key:, Value:1FO ] 112-2018-08-17 18:04:40,415 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.342 [D]  Partition:0, Offset:54, Key:, Value:121
+2019/03/12 16:50:21.342 [D]  Partition:0, Offset:55, Key:, Value:13131
+2019/03/12 16:50:21.343 [D]  Partition:0, Offset:53, Key:, Value:1FO ] 112-2018-08-17 18:04:40,415 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.343 [D]  Partition:0, Offset:54, Key:, Value:121
+2019/03/12 16:50:21.343 [D]  Partition:0, Offset:55, Key:, Value:13131
+2019/03/12 16:50:21.344 [D]  Partition:0, Offset:51, Key:, Value:eqweqw
+2019/03/12 16:50:21.344 [D]  Partition:0, Offset:52, Key:, Value:eqwe
+2019/03/12 16:50:21.344 [D]  Partition:0, Offset:53, Key:, Value:1FO ] 112-2018-08-17 18:04:40,415 method:org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:112) - Retrying request to {}->http://www.baidu.com:80
+2019/03/12 16:50:21.344 [D]  Partition:0, Offset:54, Key:, Value:121
+2019/03/12 16:50:21.344 [D]  Partition:0, Offset:55, Key:, Value:13131
+2019/03/12 16:50:21.347 [D]  Partition:0, Offset:56, Key:, Value:13131
+2019/03/12 16:50:21.347 [D]  Partition:0, Offset:57, Key:, Value:13131
+2019/03/12 16:50:21.347 [D]  Partition:0, Offset:56, Key:, Value:13131
+2019/03/12 16:50:21.347 [D]  Partition:0, Offset:57, Key:, Value:13131
+2019/03/12 16:50:21.347 [D]  Partition:0, Offset:56, Key:, Value:13131
+2019/03/12 16:50:21.347 [D]  Partition:0, Offset:57, Key:, Value:13131
+2019/03/12 16:50:21.661 [D]  send to es success
+2019/03/12 16:50:21.661 [D]  send to es success
+2019/03/12 16:50:21.662 [D]  send to es success
+2019/03/12 16:50:21.663 [D]  send to es success
+2019/03/12 16:50:21.668 [D]  send to es success
+2019/03/12 16:50:21.679 [D]  send to es success
+2019/03/12 16:50:21.679 [D]  send to es success
+2019/03/12 16:50:21.680 [D]  send to es success
+2019/03/12 16:50:21.698 [D]  send to es success
+2019/03/12 16:50:21.698 [D]  send to es success
+2019/03/12 16:50:21.699 [D]  send to es success
+2019/03/12 16:50:21.708 [D]  send to es success
+2019/03/12 16:50:21.708 [D]  send to es success
+2019/03/12 16:50:21.718 [D]  send to es success
+2019/03/12 16:50:21.732 [D]  send to es success
+2019/03/12 16:50:21.733 [D]  send to es success
+2019/03/12 16:50:21.733 [D]  send to es success
+2019/03/12 16:50:21.733 [D]  send to es success
+2019/03/12 16:50:21.736 [D]  send to es success
+2019/03/12 16:50:21.737 [D]  send to es success
+2019/03/12 16:50:21.743 [D]  send to es success
+2019/03/12 16:50:21.743 [D]  send to es success
+2019/03/12 16:50:21.752 [D]  send to es success
+2019/03/12 16:50:21.753 [D]  send to es success
+2019/03/12 16:50:21.756 [D]  send to es success
+2019/03/12 16:50:21.773 [D]  send to es success
+2019/03/12 16:50:21.773 [D]  send to es success
+2019/03/12 16:50:21.784 [D]  send to es success
+2019/03/12 16:50:21.784 [D]  send to es success
+2019/03/12 16:50:21.784 [D]  send to es success
+2019/03/12 16:50:21.793 [D]  send to es success
+2019/03/12 16:50:21.803 [D]  send to es success
+2019/03/12 16:50:21.814 [D]  send to es success
+2019/03/12 16:50:21.814 [D]  send to es success
+2019/03/12 16:50:21.815 [D]  send to es success
+2019/03/12 16:50:21.816 [D]  send to es success
+2019/03/12 16:50:21.823 [D]  send to es success
+2019/03/12 16:50:21.823 [D]  send to es success
+2019/03/12 16:50:21.833 [D]  send to es success
+2019/03/12 16:50:21.834 [D]  send to es success
+2019/03/12 16:50:21.844 [D]  send to es success
+2019/03/12 16:50:21.844 [D]  send to es success
+2019/03/12 16:50:21.854 [D]  send to es success
+2019/03/12 16:50:21.854 [D]  send to es success
+2019/03/12 16:50:21.854 [D]  send to es success

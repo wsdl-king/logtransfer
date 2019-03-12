@@ -3,10 +3,10 @@ package main
 
 import (
 	"context"
-	"github.com/astaxie/beego/logs"
-	"github.com/coreos/etcd/clientv3"
-	"time"
 	"fmt"
+	"github.com/astaxie/beego/logs"
+	"go.etcd.io/etcd/clientv3"
+	"time"
 )
 
 var etcdClient *clientv3.Client
@@ -34,8 +34,8 @@ func initEtcd(addr []string, keyfmt string, ipArrays []string, timeout time.Dura
 	logs.Debug("init etcd succ")
 	waitGroup.Add(1)
 
-	for  _, key := range keys {
-		ctx, cancel := context.WithTimeout(context.Background(), 2 *time.Second)
+	for _, key := range keys {
+		ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
 		///logagent/192.168.2.100/log_config
 		resp, err := etcdClient.Get(ctx, key)
 		cancel()
@@ -45,7 +45,7 @@ func initEtcd(addr []string, keyfmt string, ipArrays []string, timeout time.Dura
 		}
 
 		for _, ev := range resp.Kvs {
-			logs.Debug(" %q : %q\n",  ev.Key, ev.Value)
+			logs.Debug(" %q : %q\n", ev.Key, ev.Value)
 			topicConfChan <- string(ev.Value)
 		}
 	}
@@ -63,7 +63,7 @@ func WatchEtcd(keys []string) {
 	for {
 		for _, watchC := range watchChans {
 			select {
-			case wresp := <- watchC:
+			case wresp := <-watchC:
 				for _, ev := range wresp.Events {
 					logs.Debug("%s %q : %q\n", ev.Type, ev.Kv.Key, ev.Kv.Value)
 					topicConfChan <- string(ev.Kv.Value)
