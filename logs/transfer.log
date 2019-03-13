@@ -248,3 +248,34 @@
 2019/03/12 16:50:21.854 [D]  send to es success
 2019/03/12 16:50:21.854 [D]  send to es success
 2019/03/12 16:50:21.854 [D]  send to es success
+2019/03/13 09:59:42.548 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.88.152:9092", esAddr:"http://192.168.88.152:9200/", esThreadNum:8, etcdAddr:"192.168.88.152:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2019/03/13 09:59:42.549 [D]  conn to es success
+2019/03/13 09:59:42.550 [D]  etcd addr:192.168.88.152:2379
+2019/03/13 09:59:42.550 [D]  etcd watch key:[/logtransfer/192.168.88.152/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.18.0.1/log_config], timeout:5000000000
+2019/03/13 09:59:42.550 [D]  init etcd succ
+2019/03/13 09:59:42.551 [D]   "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/13 09:59:42.560 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/13 10:06:33.631 [D]  PUT "/logtransfer/192.168.88.152/log_config" : "\n[\n    \"eslservice_log\"\n]\n"
+
+2019/03/13 10:06:33.635 [D]  connect to kafka succ, topic:eslservice_log
+2019/03/13 10:06:57.770 [D]  Partition:0, Offset:59, Key:, Value:ceess
+2019/03/13 10:06:57.772 [D]  Partition:0, Offset:59, Key:, Value:ceess
+2019/03/13 10:06:57.798 [D]  send to es success
+2019/03/13 10:06:57.798 [D]  send to es success
+2019/03/13 10:06:59.019 [D]  Partition:0, Offset:60, Key:, Value:ceess
+2019/03/13 10:06:59.019 [D]  Partition:0, Offset:60, Key:, Value:ceess
+2019/03/13 10:06:59.034 [D]  send to es success
+2019/03/13 10:06:59.034 [D]  send to es success
+2019/03/13 10:07:08.530 [D]  Partition:0, Offset:61, Key:, Value:ceess
+2019/03/13 10:07:08.531 [D]  Partition:0, Offset:61, Key:, Value:ceess
+2019/03/13 10:07:08.548 [D]  send to es success
+2019/03/13 10:07:08.558 [D]  send to es success
+2019/03/13 10:07:31.305 [D]  Partition:0, Offset:62, Key:, Value:ceess
+2019/03/13 10:07:31.306 [D]  Partition:0, Offset:62, Key:, Value:ceess
+2019/03/13 10:07:31.330 [D]  send to es success
+2019/03/13 10:07:31.330 [D]  send to es success
+2019/03/13 10:07:44.816 [D]  Partition:0, Offset:63, Key:, Value:qiwenshuai
+2019/03/13 10:07:44.817 [D]  Partition:0, Offset:63, Key:, Value:qiwenshuai
+2019/03/13 10:07:44.832 [D]  send to es success
+2019/03/13 10:07:44.841 [D]  send to es success

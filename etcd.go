@@ -61,6 +61,7 @@ func WatchEtcd(keys []string) {
 	}
 
 	for {
+		//监控变化列表,休息1s
 		for _, watchC := range watchChans {
 			select {
 			case wresp := <-watchC:
