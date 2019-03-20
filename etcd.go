@@ -72,7 +72,6 @@ func WatchEtcd(keys []string) {
 			default:
 			}
 		}
-
 		time.Sleep(time.Second)
 	}
 
